@@ -1,9 +1,20 @@
 #!/usr/bin/env node
 
-import { spawn } from "node:child_process";
+import { execSync } from "child_process";
 
-spawn("echo", ["Command starts"], {
-  stdio: "inherit",
-  shell: true,
-});
-console.log("After spawn()");
+const runCommand = (command) => {
+  try {
+    execSync(`${command} `, { stdio: "inherit" });
+  } catch (error) {
+    console.log(`Failed to execute ${command}`, error);
+    process.exit(-1);
+  }
+};
+
+const repoName = process.argv[2];
+
+const gitCheckoutCommand = `git clone https://github.com/cyhfe/webpack-template.git ${repoName}`;
+
+console.log("run git clone");
+
+runCommand(gitCheckoutCommand);
