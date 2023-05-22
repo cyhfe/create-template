@@ -1,20 +1,15 @@
 #!/usr/bin/env node
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 
-import { execSync } from "child_process";
+const templateDir = path.resolve(
+  fileURLToPath(import.meta.url),
+  "../..",
+  `template`
+)
 
-const runCommand = (command) => {
-  try {
-    execSync(`${command} `, { stdio: "inherit" });
-  } catch (error) {
-    console.log(`Failed to execute ${command}`, error);
-    process.exit(-1);
-  }
-};
+const dir = fs.readdirSync("./");
+console.log(dir);
 
-const repoName = process.argv[2];
-
-const gitCheckoutCommand = `git clone https://github.com/cyhfe/webpack-template.git ${repoName}`;
-
-console.log("run git clone");
-
-runCommand(gitCheckoutCommand);
+console.log(templateDir);
