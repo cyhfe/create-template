@@ -13,6 +13,7 @@
     "name": "cyhfe",
     "email": "cccchenyuhao@gmail.com"
   },
+  "homepage": "https://github.com/cyhfe/create-react-app#readme",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.2.3"
