@@ -1,6 +1,6 @@
 {
   "name": "@cyhfe/create-react-app",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "React-TS-Webpack-template",
   "type": "module",
   "bin": {
