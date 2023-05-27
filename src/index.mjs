@@ -1,21 +1,10 @@
 #!/usr/bin/env node
 
-import { log } from "node:console";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import prompts from "prompts";
-import {
-  blue,
-  cyan,
-  green,
-  lightGreen,
-  lightRed,
-  magenta,
-  red,
-  reset,
-  yellow,
-} from "kolorist";
+import { cyan, red, reset, yellow } from "kolorist";
 
 const TEMPLATES = [
   {
