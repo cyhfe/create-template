@@ -16,7 +16,7 @@ npx @cyhfe/create-template
 npm create @cyhfe/template
 ```
 
-![screenshot](screenshot.png)
+![screenshot](./assets/screenshot.png)
 
 ## License
 
