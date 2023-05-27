@@ -1,4 +1,4 @@
-# create-react-app
+# create-template
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -24,7 +24,7 @@ Published under [MIT License](./LICENSE).
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/@cyhfe/create-react-app?style=flat&colorA=18181B&colorB=F0DB4F
-[npm-version-href]: https://npmjs.com/package/@cyhfe/create-react-app
-[npm-downloads-src]: https://img.shields.io/npm/dm/@cyhfe/create-react-app?style=flat&colorA=18181B&colorB=F0DB4F
-[npm-downloads-href]: https://npmjs.com/package/@cyhfe/create-react-app
+[npm-version-src]: https://img.shields.io/npm/v/@cyhfe/create-template?style=flat&colorA=18181B&colorB=F0DB4F
+[npm-version-href]: https://npmjs.com/package/@cyhfe/create-template
+[npm-downloads-src]: https://img.shields.io/npm/dm/@cyhfe/create-template?style=flat&colorA=18181B&colorB=F0DB4F
+[npm-downloads-href]: https://npmjs.com/package/@cyhfe/create-template
