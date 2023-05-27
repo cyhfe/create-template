@@ -1,6 +1,6 @@
 {
   "name": "@cyhfe/create-template",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "personal template generator",
   "type": "module",
   "bin": {
