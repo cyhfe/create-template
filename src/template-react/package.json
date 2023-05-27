@@ -1,0 +1,44 @@
+{
+  "name": "webpack-template",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "webpack --env mode=production",
+    "build:dev": "webpack --env mode=development",
+    "watch": "webpack --watch --env mode=production",
+    "watch:dev": "webpack --watch --env mode=development",
+    "start": "webpack serve --env mode=development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
+    "css-loader": "^6.7.4",
+    "css-minimizer-webpack-plugin": "^5.0.0",
+    "csv-loader": "^3.0.5",
+    "glob": "^10.2.5",
+    "html-webpack-plugin": "^5.5.1",
+    "json5": "^2.2.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "purgecss-webpack-plugin": "^5.0.0",
+    "style-loader": "^3.3.3",
+    "toml": "^3.0.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0",
+    "webpack-manifest-plugin": "^5.0.0",
+    "webpack-merge": "^5.8.0",
+    "xml-loader": "^1.2.1",
+    "yamljs": "^0.3.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
