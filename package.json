@@ -1,6 +1,6 @@
 {
   "name": "@cyhfe/create-template",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "personal template generator",
   "type": "module",
   "bin": {
@@ -13,7 +13,11 @@
     "name": "cyhfe",
     "email": "cccchenyuhao@gmail.com"
   },
-  "homepage": "https://github.com/cyhfe/create-template/blob/main/README.md",
+  "homepage": "https://github.com/cyhfe/create-template#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cyhfe/create-template.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.2.3"
@@ -24,13 +28,8 @@
   },
   "keywords": [
     "template",
-    "webpack",
-    "express",
-    "typescript",
     "react",
-    "generator",
-    "npx",
-    "npm create"
+    "express"
   ],
   "files": [
     "README.md"
