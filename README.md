@@ -10,8 +10,9 @@ Personal Starter Template
 - [ ] webpack-react-typescript-tailwind
 - [x] express-typescript
 
-[webpack configuration](./assets/webpack-config.md)
-[express configuration](./assets/express.md)
+[webpack config](./assets/webpack-config.md)
+
+[express config](./assets/express.md)
 
 ## Usage
 
