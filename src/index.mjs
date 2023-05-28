@@ -4,13 +4,18 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import prompts from "prompts";
-import { cyan, red, reset, yellow } from "kolorist";
+import { cyan, red, reset, yellow, blue } from "kolorist";
 
 const TEMPLATES = [
   {
     name: "react",
     display: "webpack-react-typescript",
     color: cyan,
+  },
+  {
+    name: "emotion",
+    display: "webpack-react-typescript-emotion",
+    color: blue,
   },
   {
     name: "express",

@@ -6,7 +6,7 @@
 Personal Starter Template
 
 - [x] webpack-react-typescript
-- [ ] webpack-react-typescript-emotion
+- [x] webpack-react-typescript-emotion
 - [ ] webpack-react-typescript-tailwind
 - [x] express-typescript
 
