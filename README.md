@@ -3,7 +3,7 @@
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 
-Starter Template
+starter template generator
 
 - [x] webpack-react-typescript
 - [x] webpack-react-typescript-emotion
