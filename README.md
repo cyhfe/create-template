@@ -7,7 +7,7 @@ Personal Starter Template
 
 - [x] webpack-react-typescript
 - [x] webpack-react-typescript-emotion
-- [ ] webpack-react-typescript-tailwind
+- [x] webpack-react-typescript-tailwind
 - [x] express-typescript
 - [ ] rollup-ts-library
 
