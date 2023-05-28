@@ -6,7 +6,12 @@
 Personal Starter Template
 
 - [x] webpack-react-typescript
+- [ ] webpack-react-typescript-emotion
+- [ ] webpack-react-typescript-tailwind
 - [x] express-typescript
+
+[webpack configuration](./assets/webpack-config.md)
+[express configuration](./assets/express.md)
 
 ## Usage
 
