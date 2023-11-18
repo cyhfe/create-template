@@ -33,6 +33,7 @@
   ],
   "files": [
     "README.md",
-    "assets"
+    "assets",
+    "src"
   ]
 }
