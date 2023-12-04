@@ -25,16 +25,6 @@ const TEMPLATES = [
     color: lightGreen,
   },
   {
-    name: "tailwind",
-    display: "webpack-react-typescript-tailwind",
-    color: lightMagenta,
-  },
-  {
-    name: "emotion",
-    display: "webpack-react-typescript-emotion",
-    color: lightYellow,
-  },
-  {
     name: "express",
     display: "express-typescript",
     color: lightCyan,
